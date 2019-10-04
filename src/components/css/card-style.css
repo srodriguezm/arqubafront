@@ -1,0 +1,75 @@
+
+.prop-card{
+  height: 510px;
+  width: 300px;
+  background: #fff;
+  font-family: 'Lato', sans serif;
+  color: #444444;
+
+  border-radius: 5px;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+
+}
+
+.img-container{
+  height: 60%;
+  background: url(https://images.pexels.com/photos/349749/kitchen-stove-sink-kitchen-counter-349749.jpeg?auto=compress&cs=tinysrgb&h=350) center/cover;
+}
+
+.prop-state{
+  margin: 0;
+  display: inline;
+  background: #ccd627;
+  padding: .2em 1em;
+  border-radius: 15px;
+  position: relative;
+  top: 1em;
+  right: 2em;
+  -webkit-box-shadow: 2px 2px 4px 1px rgba(0,0,0,0.5);
+  -moz-box-shadow: 2px 2px 4px 1px rgba(0,0,0,0.5);
+  box-shadow: 2px 2px 4px 1px rgba(0,0,0,0.5);
+}
+
+.prop-info{
+  margin: 1em 1em;
+}
+
+.prop-title{
+  font-size: 1.3em;
+  margin-left: -.8em;
+  text-align: left;
+}
+
+.prop-address{
+  font-size: .8em;
+  margin: .01em 0;
+  background: #fff;
+  text-align: left;
+  margin-left: -1em;
+}
+
+.prop-price{
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #ccd627;
+  text-align: left;
+  margin-left: -.5em;
+  font-family: 'Lato', sans serif;
+}
+
+.prop-aditional{
+  display: flex;
+  height:20px;
+}
+
+.additional-sec{
+  width: 33%;
+}
+
+.prop-numb,.prop-text{
+  margin: 0;
+  text-align: center;
+}

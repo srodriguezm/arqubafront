@@ -1,0 +1,31 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 03/04/2019 06:58
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+  font-family: Flaticon;
+font-style: normal;
+margin-left: 0px;
+}
+
+.flaticon-compass:before { content: "\f100"; }
+.flaticon-desk:before { content: "\f101"; }
+.flaticon-bathroom:before { content: "\f102"; }
+.flaticon-beach:before { content: "\f103"; }
+.flaticon-bath:before { content: "\f104"; }
+.flaticon-bed:before { content: "\f105"; }
+.flaticon-frame:before { content: "\f106"; }
