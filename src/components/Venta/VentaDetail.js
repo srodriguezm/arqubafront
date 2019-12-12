@@ -134,7 +134,7 @@ src={this.state.video}
         <div className="container">
           <div className="row align-items-center justify-content-center text-center">
             <div className="col-md-10">
-              <span className="d-inline-block text-white px-3 mb-3 property-offer-type rounded">Detalles de la pripiedad en Arriendo</span>
+              <span className="d-inline-block text-white px-3 mb-3 property-offer-type rounded">Detalles de la propiedad en Arriendo</span>
               <h1 className="mb-2">{this.state.titulo}</h1>
               <p className="mb-5"><strong className="h2 text-success font-weight-bold">${this.state.valor}</strong></p>
             </div>
